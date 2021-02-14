@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:hint="Enter Name"></EditText>
+
+    <Button
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press"
+        />
+
+    <ImageView
+        android:id="@+id/imagebox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"></ImageView>
+    <Button
+        android:text="Edit image"
+        android:id="@+id/setimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
